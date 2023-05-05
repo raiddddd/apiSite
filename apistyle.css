@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.titleIntro {
+  text-align: center;
+  margin: 40px 20px;
+  font-size: 42px;
+}
+
+
+button {
+  margin: 20px;
+  padding: 8px 16px;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  color: rgb(1, 1, 54);
+  font-weight: 700;
+}
+
+button:hover,
+button:focus {
+  border: 1px solid rgb(102, 102, 102);
+  background-color: rgb(250, 240, 228);
+  color: rgb(1, 1, 54);
+}
+
+button:active {
+  border: 1px solid rgb(31, 30, 30);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 3);
+}
+
+.toIntroduceCat,
+.toIntroduceDog {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px 20px;
+}
+
+.catImageSubSection,
+.dogImageSubSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.catImageSubSection p,
+.dogImageSubSection p {
+  font-size: 20px;
+}
+
+.catImageFetchedSource,
+.dogImageFetchedSource {
+  max-height: 250px;
+}
+
+.jokeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 20px;
+}
+
+.jokeType {
+  font-size: 20px;
+}
+
+.jokeSetup {
+  font-size: 42px;
+  color: navy;
+}
+
+.jokePunchLine {
+  font-size: 32px;
+  color: crimson;
+  margin-top: 15px;
+}
+
+.toIntroduceIdeea {
+ max-width: 600px;
+ margin: 0px auto;
+}
+
+.boredIdeeaGot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 100px 20px;
+  color: navy;
+  gap: 10px;
+}
+
+.activityType {
+  font-size: 24px;
+}
+
+.activity {
+  font-size: 42px;
+  align-self: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: crimson;
+}
+
+.participants {
+  font-size: 20px;
+}
+
